@@ -1,5 +1,7 @@
 
-![Movierama-logo](Frontend/src/assets/logo.png)
+<p align="center">
+  <img src="Frontend/src/assets/logo.png" alt="Movierama-logo">
+</p>
 
 # Movierama
 Bem-vindo ao repositório do projeto Movierama! Movierama é uma aplicação simples para gerenciar uma lista de filmes. Com Movierama, você pode facilmente listar filmes, adicionar novos filmes a uma lista de favoritos, apagar filmes indesejados e visualizar detalhes sobre um filme específico.
