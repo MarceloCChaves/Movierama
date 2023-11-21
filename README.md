@@ -54,6 +54,11 @@ cd Frontend
 npm install
 npm run dev
 ```
+### Crie um arquivo .env
+
+```
+VITE_API_URL=http://localhost:3000
+```
 
 Acesse a aplicação em http://localhost:5173.
 
