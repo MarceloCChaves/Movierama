@@ -3,10 +3,10 @@
   <img src="Frontend/src/assets/logo.png" alt="Movierama-logo">
 </p>
 
-# Movierama
+## 🍿 Movierama
 Bem-vindo ao repositório do projeto Movierama! Movierama é uma aplicação simples para gerenciar uma lista de filmes. Com Movierama, você pode facilmente listar filmes, adicionar novos filmes a uma lista de favoritos, apagar filmes indesejados e visualizar detalhes sobre um filme específico.
 
-## Funcionalidades
+## 🛠️ Funcionalidades
 
 ### 1. Listar Filmes
 A funcionalidade principal do Movierama é listar todos os filmes disponíveis. A lista contém informações básicas sobre cada filme, como título, poster e sinopse.
@@ -20,7 +20,7 @@ Caso queira remover um filme da sua lista de favoritos, a funcionalidade "Apagar
 ### 4. Visualizar Filme
 A funcionalidade "Visualizar Filme" fornece detalhes abrangentes sobre um filme específico.
 
-# Tecnologias utilizadas
+## 💻 Tecnologias utilizadas
 - React.js
 - Typescript
 - Sass
@@ -28,14 +28,15 @@ A funcionalidade "Visualizar Filme" fornece detalhes abrangentes sobre um filme 
 - Express.js
 - Sequelize
 
-# Como começar
-## Clone o Repositório:
+## 📁 Como começar
+
+### Clone o Repositório:
 
 ```
 git clone https://github.com/seu-username/movierama.git
 ```
 
-## Instale as Dependências:
+### Instale as Dependências:
 
 - Backend
 ```
@@ -56,7 +57,7 @@ npm run dev
 
 Acesse a aplicação em http://localhost:5173.
 
-# Autor
+## 👨‍💻 Autor
 ---
 
 <a href="https://github.com/MarceloCChaves">
