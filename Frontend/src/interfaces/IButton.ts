@@ -1,6 +1,6 @@
 export interface IButton {
-  text: string;
-  disabled: boolean;
+  text: string | React.ReactNode;
+  disabled?: boolean;
   type: 'submit' | 'reset' | 'button' | undefined;
   classes: string;
   onclick: React.MouseEventHandler<HTMLButtonElement>;

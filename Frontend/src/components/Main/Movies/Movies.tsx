@@ -6,10 +6,16 @@ import { toast } from "react-toastify";
 import { useDispatch, useSelector } from "react-redux";
 import { addFavorite } from "../../../store/reducers/favorites";
 import { RootState } from "../../../store";
+import { RiHeartFill, RiHeartLine } from "react-icons/ri";
 
 const Movies = ({ id, title, poster, rating, overview }: IMovie) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+
+  const iconProps = {
+    color: '#fff',
+    size: 15
+  }
 
   const isFavorite = useSelector((state: RootState) =>
     state.favorites.some((itemOnFavorite) => itemOnFavorite.id === id)
@@ -48,7 +54,7 @@ const Movies = ({ id, title, poster, rating, overview }: IMovie) => {
         <div className={styles.overview}>{overview}</div>
         <div className={styles.buttons}>
           <Button
-            text={!isFavorite ? "Salvar" : "Salvo"}
+            text={!isFavorite ? <RiHeartLine {...iconProps}/> : <RiHeartFill {...iconProps}/>}
             type="button"
             classes={styles.saveMovie}
             disabled={isFavorite}
